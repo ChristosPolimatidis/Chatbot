@@ -2,7 +2,7 @@
 
 A Node.js + Express backend server for a conversational chatbot application.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js (v18+ recommended)
@@ -20,7 +20,7 @@ Install dependencies
 
 bash
 npm install express
-⚙️ Configuration
+Configuration
 Create a package.json if needed:
 
 bash
@@ -29,18 +29,18 @@ Add additional dependencies as required:
 
 bash
 npm install cors body-parser
-🏃 Running the Server
+Running the Server
 bash
 node server.js
 The server will start on the default port (check server.js for exact port number).
 
-📁 Project Structure
+Project Structure
 chatbot/
 └── server/
     ├── server.js         # Main server file
     ├── package.json      # Dependency management
     └── package-lock.json # Auto-generated
-🛠 Troubleshooting
+Troubleshooting
 Common Issues
 Error: Cannot find module 'express'
 
