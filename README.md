@@ -1,44 +1,48 @@
 # Chris Assistant - Interactive Resume Chatbot
 
-## Overview
-Chris Assistant is an interactive chatbot that serves as a dynamic resume presentation. It allows users to explore professional background information through natural conversation.
+A Node.js + Express backend server for a conversational chatbot application.
 
-## Features
-- **Interactive Q&A**: Ask about skills, projects, education, and more
-- **Quick Start Buttons**: Sample questions for instant interaction
-- **Visual Feedback**: Typing indicators and response animations
-- **Responsive Design**: Works on desktop and mobile devices
+## 🚀 Getting Started
 
-## Technologies
-- **Frontend**: HTML5, CSS3, JavaScript
-- **Backend**: Node.js + Express
-- **Styling**: Bootstrap 5 + Custom CSS
+### Prerequisites
+- Node.js (v18+ recommended)
+- npm (comes with Node.js)
 
-## Setup
-1. Clone repo:
-```bash
-git clone https://github.com/yourusername/chris-assistant.git
-cd chris-assistant
-Install dependencies:
+### Installation
+1. Clone the repository (if applicable)
+   ```bash
+   git clone https://github.com/yourusername/chatbot.git
+Navigate to the server directory
 
 bash
-npm install
-Run server:
+cd chatbot/server
+Install dependencies
 
+bash
+npm install express
+⚙️ Configuration
+Create a package.json if needed:
+
+bash
+npm init -y
+Add additional dependencies as required:
+
+bash
+npm install cors body-parser
+🏃 Running the Server
 bash
 node server.js
-Access at:
+The server will start on the default port (check server.js for exact port number).
 
-http://localhost:5209
-Usage
-Type questions in the input field
+📁 Project Structure
+chatbot/
+└── server/
+    ├── server.js         # Main server file
+    ├── package.json      # Dependency management
+    └── package-lock.json # Auto-generated
+🛠 Troubleshooting
+Common Issues
+Error: Cannot find module 'express'
 
-Use sample buttons for common queries
-
-Explore different professional topics
-
-Files
-chatbot.html       # Main interface
-chatbot.css        # Custom styles  
-chatbot.js         # Client-side logic
-server.js          # Backend server
+bash
+npm install express --save
