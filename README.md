@@ -23,7 +23,7 @@ Navigate to the server directory
 ```bash
    npm init -y
    npm install express
-   mpm install cors
+   npm install cors
 ```
 ### Running the Server
 
